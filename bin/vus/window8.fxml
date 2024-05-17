@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="945.0" prefWidth="995.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.window8Controler">
+   <children>
+      <GridPane hgap="10.0" layoutX="202.0" layoutY="619.0" prefHeight="157.0" prefWidth="886.0" vgap="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.0" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="122.0" minWidth="10.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="112.0" minWidth="10.0" prefWidth="44.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.0" minWidth="10.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="44.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="180.0" minWidth="10.0" prefWidth="44.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="42.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="383.0" minWidth="10.0" prefWidth="383.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="A" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="47.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="M" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="L" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="K" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="J" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="H" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="G" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="F" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="D" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="S" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="Q" textFill="WHITE" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="P" textFill="WHITE" GridPane.columnIndex="9">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="O" textFill="WHITE" GridPane.columnIndex="8">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="I" textFill="WHITE" GridPane.columnIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="U" textFill="WHITE" GridPane.columnIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="Y" textFill="WHITE" GridPane.columnIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="T" textFill="WHITE" GridPane.columnIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="R" textFill="WHITE" GridPane.columnIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="E" textFill="WHITE" GridPane.columnIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Z" mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="Z" textFill="WHITE" GridPane.columnIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <GridPane hgap="10.0" layoutX="199.0" layoutY="794.0" prefHeight="70.0" prefWidth="565.0" vgap="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="126.0" minWidth="10.0" prefWidth="101.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="86.0" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="0.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="75.0" minWidth="4.0" prefWidth="46.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="10.0" prefWidth="44.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="91.0" minWidth="10.0" prefWidth="49.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="87.0" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.0" minWidth="10.0" prefWidth="114.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="Sup" mnemonicParsing="false" prefHeight="63.0" prefWidth="108.0" style="-fx-background-radius: 10px; -fx-background-color: #BB1111;" text="SUPPR" textFill="WHITE" GridPane.columnIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ok" mnemonicParsing="false" prefHeight="70.0" prefWidth="98.0" style="-fx-background-radius: 10px; -fx-background-color: #00720A;" text="OK" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="70.0" prefWidth="63.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="W" textFill="WHITE" GridPane.columnIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="X" textFill="WHITE" GridPane.columnIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="C" textFill="WHITE" GridPane.columnIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="V" textFill="WHITE" GridPane.columnIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="B" textFill="WHITE" GridPane.columnIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#lettre" prefHeight="71.0" prefWidth="43.0" style="-fx-background-radius: 10px; -fx-background-color: #898989;" text="N" textFill="WHITE" GridPane.columnIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TextField fx:id="text7" alignment="CENTER" layoutX="641.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text6" alignment="CENTER" layoutX="561.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text5" alignment="CENTER" layoutX="486.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text4" alignment="CENTER" layoutX="407.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text3" alignment="CENTER" layoutX="326.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text2" alignment="CENTER" layoutX="248.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1" alignment="CENTER" layoutX="170.0" layoutY="85.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text11" alignment="CENTER" layoutX="172.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text12" alignment="CENTER" layoutX="248.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text13" alignment="CENTER" layoutX="326.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text14" alignment="CENTER" layoutX="407.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text15" alignment="CENTER" layoutX="486.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text16" alignment="CENTER" layoutX="561.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text17" alignment="CENTER" layoutX="641.0" layoutY="165.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text71" alignment="CENTER" layoutX="643.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text61" alignment="CENTER" layoutX="563.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text51" alignment="CENTER" layoutX="488.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text41" alignment="CENTER" layoutX="409.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text31" alignment="CENTER" layoutX="328.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text21" alignment="CENTER" layoutX="250.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text18" alignment="CENTER" layoutX="172.0" layoutY="241.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text111" alignment="CENTER" layoutX="174.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text121" alignment="CENTER" layoutX="250.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text131" alignment="CENTER" layoutX="328.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text141" alignment="CENTER" layoutX="409.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text151" alignment="CENTER" layoutX="488.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text161" alignment="CENTER" layoutX="563.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text171" alignment="CENTER" layoutX="643.0" layoutY="321.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text72" alignment="CENTER" layoutX="643.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text62" alignment="CENTER" layoutX="563.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text52" alignment="CENTER" layoutX="488.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text42" alignment="CENTER" layoutX="409.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text32" alignment="CENTER" layoutX="328.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text22" alignment="CENTER" layoutX="250.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text19" alignment="CENTER" layoutX="172.0" layoutY="400.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text112" alignment="CENTER" layoutX="174.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text122" alignment="CENTER" layoutX="250.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text132" alignment="CENTER" layoutX="328.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text142" alignment="CENTER" layoutX="409.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text152" alignment="CENTER" layoutX="488.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text162" alignment="CENTER" layoutX="563.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text172" alignment="CENTER" layoutX="643.0" layoutY="480.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text73" alignment="CENTER" layoutX="719.0" layoutY="89.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text173" alignment="CENTER" layoutX="719.0" layoutY="169.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text711" alignment="CENTER" layoutX="721.0" layoutY="245.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1711" alignment="CENTER" layoutX="721.0" layoutY="325.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text721" alignment="CENTER" layoutX="721.0" layoutY="404.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1721" alignment="CENTER" layoutX="721.0" layoutY="484.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Button id="sale" fx:id="Retour" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#onRetour" prefHeight="6.0" prefWidth="49.0" style="-fx-background-color: AD3D3D; -fx-text-fill: white; -fx-background-radius: 20%;" stylesheets="@../../../JavaFxAI/stylesheet.css" text="X" />
+      <TextField fx:id="hh" layoutX="18.0" layoutY="191.0" prefHeight="51.0" prefWidth="42.0" style="-fx-background-color: black; -fx-text-fill: white;">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ss" layoutX="112.0" layoutY="191.0" prefHeight="51.0" prefWidth="58.0" style="-fx-background-color: black; -fx-text-fill: white;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mm" layoutX="67.0" layoutY="191.0" prefHeight="51.0" prefWidth="42.0" style="-fx-background-color: black; -fx-text-fill: white;">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="-35.0" layoutY="153.0" style="-fx-background-radius: 10%; -fx-background-color: gray; -fx-region-background: black; -fx-text-fill: white;" text="TIME">
+         <font>
+            <Font name="Serif Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Text fill="WHITE" layoutX="60.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="110.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <TextField fx:id="mots" alignment="CENTER" layoutX="326.0" layoutY="26.0" opacity="0.86" style="-fx-text-fill: white; -fx-background-color: black;">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </TextField>
+      <ImageView fx:id="indice1" fitHeight="45.0" fitWidth="49.0" layoutX="448.0" layoutY="573.0" onMouseClicked="#onIndice" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/idea-bulb.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="stat" fitHeight="42.0" fitWidth="45.0" layoutX="860.0" layoutY="20.0" onMouseClicked="#onStat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/graph.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="42.0" layoutX="936.0" layoutY="20.0" onMouseClicked="#onRejouer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/replay.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

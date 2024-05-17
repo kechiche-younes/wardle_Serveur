@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="713.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loubiControler">
+   <children>
+      <Button id="sale" fx:id="retour" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onRetour" prefHeight="35.0" prefWidth="132.0" style="-fx-background-color: B20A0A;" stylesheets="@stylesheet.css" text="Retour" textFill="WHITE" />
+      <Text fx:id="pA" fill="#4a4949" layoutX="28.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: white;" text="en attante" wrappingWidth="269.7294921875">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Text fill="#f50000" layoutX="114.0" layoutY="361.0" rotate="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VS" wrappingWidth="69.7294921875">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Text fx:id="pB" fill="#4a4949" layoutX="28.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="en attante" wrappingWidth="269.7294921875">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Button id="sale" fx:id="start" layoutX="33.0" layoutY="530.0" mnemonicParsing="false" onAction="#onStart" prefHeight="57.0" prefWidth="167.0" style="-fx-background-color: green;" stylesheets="@stylesheet.css" text="start" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <TextField fx:id="text18" alignment="CENTER" layoutX="11.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: green; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="B">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text181" alignment="CENTER" layoutX="83.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="I">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text182" alignment="CENTER" layoutX="161.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="E">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text183" alignment="CENTER" layoutX="236.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: #f08d00; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="N">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text184" alignment="CENTER" layoutX="309.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="V">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1811" alignment="CENTER" layoutX="381.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="E">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1821" alignment="CENTER" layoutX="459.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: #f08d00; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="N">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1831" alignment="CENTER" layoutX="534.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="U">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text1841" alignment="CENTER" layoutX="607.0" layoutY="104.0" prefHeight="70.0" prefWidth="67.0" style="-fx-background-color: green; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="E">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <Text fx:id="message" fill="WHITE" layoutX="381.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".." wrappingWidth="233.0">
+         <font>
+            <Font name="KacstNaskh" size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="input" layoutX="382.0" layoutY="270.0" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: gray;" />
+      <Button id="sale" layoutX="625.0" layoutY="270.0" mnemonicParsing="false" onAction="#onSend" prefHeight="42.0" prefWidth="67.0" style="-fx-background-color: #4CAF50;" stylesheets="@stylesheet.css" text="&gt;" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="382.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message" textAlignment="CENTER" wrappingWidth="233.0" />
+      <ImageView fx:id="settings" fitHeight="49.0" fitWidth="58.0" layoutX="634.0" layoutY="14.0" onMouseClicked="#onSettings" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/parametres-cog%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="D" alignment="CENTER" layoutX="538.0" layoutY="545.0" prefHeight="42.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="D">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="L" alignment="CENTER" layoutX="264.0" layoutY="545.0" prefHeight="42.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="L">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="A" alignment="CENTER" layoutX="442.0" layoutY="545.0" prefHeight="42.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="A">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="O" alignment="CENTER" layoutX="357.0" layoutY="545.0" prefHeight="42.0" prefWidth="67.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-border-color: #C5C5C5; -fx-border-radius: 10px; -fx-border-width: 2px;" text="O">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </TextField>
+      <Text fx:id="message1" fill="#6b5959" layoutX="376.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text=".." wrappingWidth="233.0">
+         <font>
+            <Font name="KacstNaskh" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

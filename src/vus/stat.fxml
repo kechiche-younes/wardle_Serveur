@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="546.0" prefWidth="519.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StatController">
+
+
+
+<children>
+
+
+
+<TableView fx:id="tableStat" layoutX="67.0" layoutY="27.0" prefHeight="486.0" prefWidth="400.0" style="-fx-background-color: #333333; -fx-text-fill: white;">
+
+
+
+<columns>
+
+
+
+<TableColumn fx:id="nom" prefWidth="195.0" text="time" />
+
+
+
+<TableColumn fx:id="prenom" minWidth="0.0" prefWidth="137.0" text="tentative" />
+
+
+
+</columns>
+
+
+
+</TableView>
+
+
+
+</children>
+
+
+
+
+
+
+
+</AnchorPane>
