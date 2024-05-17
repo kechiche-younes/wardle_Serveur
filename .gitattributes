@@ -1,0 +1,1 @@
+src/mots/frWac_non_lem_no_postag_no_phrase_200_skip_cut100.bin filter=lfs diff=lfs merge=lfs -text
